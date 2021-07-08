@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="温度："/>
+        <lecho.lib.hellocharts.view.LineChartView
+            android:id="@+id/line_chart"
+            android:padding="25dp"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#ffffff"/>
+        <ListView
+            android:visibility="gone"
+            android:divider="@null"
+            android:scrollbars="none"
+            android:layout_marginTop="15dp"
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3">
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:text="血氧："/>
+
+    </LinearLayout>
+</LinearLayout>

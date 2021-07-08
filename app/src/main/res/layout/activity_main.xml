@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="0.0px"
+            android:layout_height="60dp"
+            android:id="@+id/patient1_btn"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.0"
+            android:text="患者1:   0"/>
+        <Button
+            android:layout_width="0.0px"
+            android:layout_height="60dp"
+            android:id="@+id/patient2_btn"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.0"
+            android:text="患者2:   0"/>
+        <Button
+            android:layout_width="0.0px"
+            android:layout_height="60dp"
+            android:id="@+id/patient3_btn"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1.0"
+            android:text="患者3:   0"/>
+    </LinearLayout>
+</LinearLayout>
